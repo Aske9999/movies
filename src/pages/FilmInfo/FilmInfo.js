@@ -39,7 +39,7 @@ const FilmInfo = () => {
     axios(`${API_BASE}/movie/${id}/credits?${API_KEY}`)
       .then(({data}) => {
         setActors(data.cast)
-        setStaff(data.crew.filter(item => jobs.includes(item.job)))
+        setStaff(data.crew.filter(item => jobs.includes(item.jobs)))
       })
 
     axios(`${API_BASE}/movie/${id}/videos?${API_KEY}&language=ru`)

@@ -29,12 +29,11 @@ const AllFilms = () => {
     return (
         <div className="container">
             <div className="my-4">
-              {page < 1 }
-                {/*{*/}
-                {/*    [...Array(10).keys()].map(item => {*/}
-                {/*        return <button onClick={() => setPage(item + 1)} type="button" className="btn btn-info me-2">{item + 1}</button>*/}
-                {/*    })*/}
-                {/*}*/}
+                {
+                    [...Array(10).keys()].map(item => {
+                        return <button onClick={() => setPage(item + 1)} type="button" className="btn btn-info me-2">{item + 1}</button>
+                    })
+                }
             </div>
             <div className="row">
                 {
