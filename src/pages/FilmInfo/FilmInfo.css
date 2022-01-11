@@ -1,0 +1,70 @@
+.flex-container{
+    display: flex;
+}
+.box-info{
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-info-poster {
+    width: 420px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 30px;
+    object-fit: cover;
+}
+.box-info-content {
+    padding: 30px 0;
+    color: white;
+}
+.box-info-content-text {
+    color: antiquewhite;
+}
+.staff {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    color: white;
+}
+.staff-title {
+    margin-right: 10px;
+}
+.actor-card {
+    padding: 20px;
+    text-align: center;
+}
+.actor-card-btn{
+    border: none;
+    background: none;
+}
+.actor-pic {
+    width: 330px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+h4 {
+    color: white;
+}
+.genres {
+    margin-bottom: 20px;
+}
+.slick-prev:before{
+    color: #efc4d4;
+}
+.slick-next:before{
+    color: #efc4d4;
+}
+.slick-arrow{
+    cursor: grab;
+}
+.slick-arrow:active{
+    cursor: grabbing;
+}
+.show-more {
+    display: flex;
+    align-items: center;
+}
+.show-more-btn {
+    background: none;
+    border: none;
+}

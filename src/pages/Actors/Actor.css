@@ -1,0 +1,41 @@
+.actors-card{
+    padding: 10px;
+    text-align: center;
+}
+.actors-pic{
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+.actor-profile-pic {
+    width: 330px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.profile {
+    padding: 100px 0;
+}
+.profile-content{
+    color: white;
+}
+.profile-actor-name{
+    color: aqua;
+    font-weight: bold;
+}
+.profile-title{
+    color: aquamarine;
+}
+.profile-movie-poster{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.popular-films{
+    padding: 5px;
+    text-align: center;
+}
+.movie-card-link{
+    color: white;
+}
