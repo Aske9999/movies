@@ -9,7 +9,6 @@ import Slider from "react-slick";
 import "./FilmInfo.css"
 
 const FilmInfo = () => {
-  const jobs = ["Director", "Screenplay", "Producer", "Original Music Composer"]
   const [film, setFilm] = useState({})
   const {id} = useParams()
   const [actors, setActors] = useState([])
@@ -31,6 +30,7 @@ const FilmInfo = () => {
   }
 
   useEffect(() => {
+    const jobs = ["Director", "Screenplay", "Producer", "Original Music Composer"]
     axios(`${API_BASE}/movie/${id}?${API_KEY}&language=ru`)
       .then(({data}) => {
         setFilm(data)
@@ -46,7 +46,7 @@ const FilmInfo = () => {
       .then(({data}) => {
         setVideos(data.results)
       })
-  }, [id, jobs])
+  }, [id])
 
   return (
     <>
